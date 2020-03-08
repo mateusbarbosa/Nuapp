@@ -2,6 +2,7 @@ import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 
 import 'card1/card1_widget.dart';
+import 'card2/card2_widget.dart';
 import 'card3/card3_widget.dart';
 
 class CardListWidget extends StatelessWidget {
@@ -19,7 +20,7 @@ class CardListWidget extends StatelessWidget {
               child: Row(
                 children: <Widget>[
                   Card1(),
-                  Card1(),
+                  Card2(),
                   Card3(),
                 ],
               ),
