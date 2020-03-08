@@ -88,7 +88,7 @@ class Card1 extends StatelessWidget {
                         children: <Widget>[
                           Container(
                             height: 110,
-                            color: Colors.yellow,
+                            color: Color(0xFFFF9800),
                           ),
                           Container(
                             height: 100,

@@ -10,12 +10,13 @@ class BottomListWidget extends StatelessWidget {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16),
+        padding: const EdgeInsets.symmetric(horizontal: 17),
         child: Row(
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             CardWidget(Icons.person_outline, "Indicar Amigos"),
+            CardWidget(Icons.pie_chart, "Resumo Financeiro"),
             CardWidget(Icons.chat_bubble_outline, "Cobrar"),
             CardWidget(Icons.monetization_on, "Depositar"),
             CardWidget(Icons.attach_money, "Transferir"),
@@ -23,7 +24,7 @@ class BottomListWidget extends StatelessWidget {
             CardWidget(Icons.restore_page, "Pagar"),
             CardWidget(Icons.lock_open, "Bloquear cartão"),
             CardWidget(Icons.credit_card, "Cartão virtual"),
-            CardWidget(Icons.filter_list, "Organizar atalhos"),
+             CardWidget(Icons.filter_list, "Organizar atalhos"),
           ],
         ),
       ),

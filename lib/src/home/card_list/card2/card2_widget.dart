@@ -18,7 +18,7 @@ class Card2 extends StatelessWidget {
                       children: <Widget>[
                         Row(
                           children: <Widget>[
-                            Icon(Icons.credit_card, color: Colors.black54),
+                            Icon(Icons.account_balance_wallet, color: Colors.black54),
                             SizedBox(width: 15),
                             Text(
                               "Conta",
