@@ -20,7 +20,7 @@ class LogoWidget extends StatelessWidget {
             ),
             SizedBox(width: 10),
             Text(
-              "Desenrascanço",
+              "Wallace",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 23,

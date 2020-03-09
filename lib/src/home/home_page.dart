@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:nubank_layout/src/resumo/resumo_page.dart';
 
 import 'bottom_list/bottom_list_widget.dart';
 import 'card_list/card_list_widget.dart';
 import 'config/config_page.dart';
 import 'home_animation.dart';
 import 'logo/logo_widget.dart';
-// import 'package:nubank_layout/resumo_home.dart'
 
 class HomePage extends StatefulWidget {
   @override
@@ -14,6 +14,11 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage>
     with TickerProviderStateMixin, HomeAnimation {
+  
+  // void _goResumo () {
+  //   Navigator.pushNamed(context, ResumoPage.routeName);
+  // }
+
   @override
   Widget build(BuildContext context) {
     return Material(

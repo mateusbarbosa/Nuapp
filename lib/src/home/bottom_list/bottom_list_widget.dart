@@ -10,13 +10,12 @@ class BottomListWidget extends StatelessWidget {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 17),
+        padding: const EdgeInsets.symmetric(horizontal: 16),
         child: Row(
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             CardWidget(Icons.person_outline, "Indicar Amigos"),
-            CardWidget(Icons.pie_chart, "Resumo Financeiro"),
             CardWidget(Icons.chat_bubble_outline, "Cobrar"),
             CardWidget(Icons.monetization_on, "Depositar"),
             CardWidget(Icons.attach_money, "Transferir"),
@@ -51,15 +50,25 @@ class CardWidget extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
-                Icon(
-                  icon,
-                  color: Colors.white,
-                  size: 32,
+                RaisedButton (
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/second');
+                  },
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(
+                        icon,
+                        color: Colors.white,
+                        size: 32,
+                      ),
+                      Text(
+                        text,
+                        style: TextStyle(color: Colors.white, fontSize: 16),
+                      ),
+                    ],
+                  ),
                 ),
-                Text(
-                  text,
-                  style: TextStyle(color: Colors.white, fontSize: 16),
-                )
               ],
             ),
           ),
