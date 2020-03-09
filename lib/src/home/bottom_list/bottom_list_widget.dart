@@ -24,7 +24,7 @@ class BottomListWidget extends StatelessWidget {
             CardWidget(Icons.restore_page, "Pagar"),
             CardWidget(Icons.lock_open, "Bloquear cartão"),
             CardWidget(Icons.credit_card, "Cartão virtual"),
-             CardWidget(Icons.filter_list, "Organizar atalhos"),
+            CardWidget(Icons.filter_list, "Organizar atalhos"),
           ],
         ),
       ),

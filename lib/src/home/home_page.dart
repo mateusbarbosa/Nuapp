@@ -5,6 +5,7 @@ import 'card_list/card_list_widget.dart';
 import 'config/config_page.dart';
 import 'home_animation.dart';
 import 'logo/logo_widget.dart';
+// import 'package:nubank_layout/resumo_home.dart'
 
 class HomePage extends StatefulWidget {
   @override
